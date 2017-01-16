@@ -8,8 +8,8 @@ from math import sqrt
 
 
 if len( sys.argv ) != 3:
-		print "\nUsage: ", sys.argv[0], "<predicted scores file> <reference scores file> \n"
-		exit()
+	print "\nUsage: ", sys.argv[0], "<predicted scores file> <reference scores file> \n"
+	exit()
 
 predic, ref = sys.argv[1:]
 
