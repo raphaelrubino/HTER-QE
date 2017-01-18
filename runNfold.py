@@ -12,7 +12,6 @@ from sklearn.model_selection import GridSearchCV
 from sklearn import metrics
 from math import sqrt
 
-
 if len( sys.argv ) != 5:
 	print( "\nUsage: ", sys.argv[0], "<libsvm train (string)> <n fold (int)> <nb threads (int)> <output prefix>\n" )
 	exit()
